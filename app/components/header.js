@@ -15,7 +15,7 @@ export default function Header() {
                 
                 <a href="" target="_blank" className="flex items-center gap-1 xl:gap-4 transition-transform transform duration-300 ease-in-out hover:scale-110">
                     <Image
-                        src="/icones/whatsapp.webp"
+                        src="/icons/whatsapp.webp"
                         alt="Icone do whatsapp"
                         width={30}
                         height={30}
