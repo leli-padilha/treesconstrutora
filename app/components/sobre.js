@@ -13,9 +13,9 @@ export default function Sobre(){
                     </p>
                 </div>
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-3 xl:gap-10">
-                    <Box img="/icons/equipe.png" title="EQUIPE ESPECIALIZADA" desc="Experiência em arquitetura e construção de alto padrão." duration="200"/>
-                    <Box img="/icons/visao.png" title="VISÃO INOVADORA" desc="Projetos que unem sofisticação e funcionalidade." duration="300" />
-                    <Box img="/icons/foco.png" title="FOCO NO CLIENTE E NO INVESTIDOR" desc="Personalização para atender os sonhos e objetivos de lucro do investidor." duration="400"/>
+                    <Box img="/icons/equipe.webp" title="EQUIPE ESPECIALIZADA" desc="Experiência em arquitetura e construção de alto padrão." duration="200"/>
+                    <Box img="/icons/visao.webp" title="VISÃO INOVADORA" desc="Projetos que unem sofisticação e funcionalidade." duration="300" />
+                    <Box img="/icons/foco.webp" title="FOCO NO CLIENTE E NO INVESTIDOR" desc="Personalização para atender os sonhos e objetivos de lucro do investidor." duration="400"/>
                 </div>
             </div>
         </section>
