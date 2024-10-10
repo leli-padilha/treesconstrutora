@@ -2,7 +2,7 @@ import Box from "./box"
 
 export default function Sobre(){
     return (
-        <section className="bg-[url('/images/fundo_sobre.png')] bg-cover bg-center p-4 md:p-10">
+        <section className="bg-[url('/images/fundo_sobre.webp')] bg-cover bg-center p-4 md:p-10">
             <div className="max-w-7xl m-auto flex flex-col items-center gap-4 md:gap-10">
                 <h2 className="w-fit text-center text-primary font-bold border-b-8 pb-2 border-primary text-xl md:text-3xl xl:text-4xl" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">QUEM SOMOS</h2>
                 <div className="bg-primary p-4 rounded-2xl md:p-5" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">

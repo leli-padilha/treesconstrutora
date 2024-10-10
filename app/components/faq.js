@@ -34,9 +34,9 @@ export default function FAQ() {
     <section className="bg-gradientFundo p-4 md:p-10">
         <div className="max-w-7xl m-auto flex flex-col gap-5" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
             <h2 className="text-xl font-bold text-center md:text-3xl">Perguntas Frequentes</h2>
-            <div className="space-y-4 flex flex-col ga-4">
+            <div className="flex flex-col gap-4 xl:gap-6">
                 {faqs.map((faq, index) => (
-                    <div key={index} className="rounded-2xl bg-white">
+                    <div key={index} className="rounded-2xl bg-white shadow-md">
                         <button
                           className="w-full flex justify-between items-center p-4 text-left focus:outline-none"
                           onClick={() => toggleFAQ(index)} 

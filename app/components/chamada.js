@@ -16,7 +16,7 @@ export default function Chamada(){
                 </div>
                 <div className="relative w-72 h-72 md:w-[320px] md:h-[320px]">
                     <Image 
-                        src="/images/engenheiro.png" 
+                        src="/images/engenheiro.webp" 
                         alt="Engenheiro de braçõs cruzados" 
                         fill
                         sizes="100vh"
