@@ -17,8 +17,8 @@ export default function Header() {
                     <Image
                         src="/icons/whatsapp.webp"
                         alt="Icone do whatsapp"
-                        width={30}
-                        height={30}
+                        width={40}
+                        height={40}
                         className="xl:h-10 xl:w-10"
                     />
                     <span className="text-primary font-bold xl:text-2xl">
