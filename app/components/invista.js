@@ -26,7 +26,7 @@ export default function Invista(){
                     </div>
                     
                     <Image 
-                        src="/images/moedas.png"
+                        src="/images/moedas.webp"
                         alt="Imagem de moedas"
                         width={300}
                         height={300}
