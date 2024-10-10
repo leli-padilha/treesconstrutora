@@ -14,8 +14,8 @@ export default function Chamada(){
 
                     <Button text="Fale conosco agora mesmo" className="text-sm"/>
                 </div>
-                <div className="xl:relative xl:h-[300px] xl:w-[290px]">
-                    <Image src="/images/engenheiro.png" alt="Engenheiro de braçõs cruzados" width={250} height={230} className="xl:absolute xl:inset-0 xl:h-[120%] xl:w-auto xl:object-cover xl:-top-[59px]  "/>
+                <div>
+                    <Image src="/images/engenheiro.png" alt="Engenheiro de braçõs cruzados" width={280} height={280} className="md:w-[320px] md:h-[320px] xl:w-[420px] xl:h-[420px]"/>
                 </div>
             </div>
         </section>

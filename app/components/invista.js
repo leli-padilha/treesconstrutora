@@ -28,9 +28,9 @@ export default function Invista(){
                     <Image 
                         src="/images/moedas.png"
                         alt="Imagem de moedas"
-                        width={242}
-                        height={214}
-                        className="md:w-[320px] md:h-[320px] lg:w-[400px] lg:h-[400px] xl:w-[500px] xl:h-[500px]"
+                        width={300}
+                        height={300}
+                        className="md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px]"
                     />
                     
                 </div>
