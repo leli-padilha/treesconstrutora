@@ -4,12 +4,12 @@ export default function Header() {
     return (
         <header className=" p-4 w-full bg-fundo items-center md:px-10">
             <div className="max-w-7xl m-auto flex justify-between">
-                <div className="relative w-[105px] h-[41px] md:w-[150px] md:h-[58px] lg:w-[200px] lg:h-[78px]">
+                <div className="w-[105px] h-[41px] md:w-[150px] md:h-[58px] lg:w-[200px] lg:h-[78px]">
                     <Image 
                         src="/images/logo/logo.webp"
                         alt="Logomarca Trees Construtora" 
-                        fill
-                        sizes="100vh"       
+                        width={200}
+                        height={77}    
                     />
                 </div>
                 
