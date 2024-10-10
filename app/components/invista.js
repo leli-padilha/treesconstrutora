@@ -5,7 +5,7 @@ export default function Invista(){
     return (
         <section className="bg-[url('/images/fundo_invista.png')] bg-cover bg-center p-4">
             <div className="max-w-7xl m-auto">
-                <div className="flex flex-col gap-4 items-center justify-center">
+                <div className="flex flex-col gap-4 items-center justify-center" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                     <div className="flex flex-col items-center gap-4">
                         <div className="text-white flex flex-col gap-2">
                             <h2 className="font-bold border-b-2 border-primary text-xl text-center">Invista no Futuro</h2>

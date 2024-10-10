@@ -5,25 +5,21 @@ import { FaChevronDown } from 'react-icons/fa';
 
 const faqs = [
   {
-    question: 'O que é o Next.js?',
-    answer: 'Next.js é um framework React para produção, criado pela Vercel.',
+    question: 'Quais são os benefícios de investir em uma casa de alto padrão?',
+    answer: 'Casas de alto padrão oferecem maior valorização no longo prazo, pois estão localizadas em áreas nobres e com demanda constante. Além disso, apresentam melhor qualidade de construção, design sofisticado e mais atrativos como segurança, conforto e privacidade.',
   },
   {
-    question: 'Como instalar o Tailwind no Next.js?',
-    answer: 'Você pode instalar o Tailwind via npm e configurar no arquivo de configuração do Next.js.',
+    question: 'Quais são os principais custos envolvidos na compra de uma casa de alto padrão?',
+    answer: 'Além do valor de aquisição, é preciso considerar despesas como ITBI (Imposto de Transmissão de Bens Imóveis), escritura e registro, além dos custos com decoração e possíveis adaptações. O valor do condomínio também pode ser maior, devido à infraestrutura diferenciada.',
   },
   {
-    question: 'O que são os hooks do React?',
-    answer: 'Hooks são funções especiais do React que permitem o uso de estado e outros recursos no React sem escrever uma classe.',
+    question: 'Quanto uma casa de alto padrão valoriza ao longo do tempo?',
+    answer: 'A valorização varia de acordo com a localização, condições econômicas e demanda, mas imóveis de alto padrão tendem a valorizar de 10% a 20% ao ano, principalmente em áreas de alto interesse e crescimento urbano.',
   },
   {
-    question: 'Qual a diferença entre Next.js e React?',
-    answer: 'Next.js é um framework baseado no React que facilita a criação de sites com renderização do lado do servidor e otimizações.',
-  },
-  {
-    question: 'O que é Tailwind CSS?',
-    answer: 'Tailwind CSS é um framework CSS que fornece utilitários prontos para uso para construir layouts rapidamente.',
-  },
+    question: 'É fácil revender uma casa de alto padrão?',
+    answer: 'Embora o público-alvo seja mais seleto, casas de alto padrão tendem a atrair compradores que buscam qualidade de vida e investimentos seguros, o que pode facilitar a revenda, especialmente em mercados imobiliários aquecidos. Além disso, a exclusividade e diferenciais do imóvel aumentam sua atratividade.',
+  }
 ];
 
 export default function FAQ() {
@@ -36,7 +32,7 @@ export default function FAQ() {
 
   return (
     <div className="max-w-3xl mx-auto bg-fundo">
-        <div className="max-w-7xl m-auto p-4 flex flex-col gap-5">
+        <div className="max-w-7xl m-auto p-4 flex flex-col gap-5" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
             <h2 className="text-xl font-bold text-center">Perguntas Frequentes</h2>
             <div className="space-y-4 flex flex-col ga-4">
                 {faqs.map((faq, index) => (

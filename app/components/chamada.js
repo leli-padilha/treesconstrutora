@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function Chamada(){
     return (
         <section className="bg-fundo p-4">
-            <div className="max-w-7xl m-auto bg-gradient rounded-2xl flex flex-col items-center">
+            <div className="max-w-7xl m-auto bg-gradient rounded-2xl flex flex-col items-center" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                 <div className="flex flex-col gap-4 p-4">
                     <h2 className="font-bold text-xl text-white">
                         Pronto para investir em <br/>
