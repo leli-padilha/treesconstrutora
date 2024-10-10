@@ -25,7 +25,7 @@ export default function Footer() {
                         </a>
                     </div>
                     <div>
-                        <p className="text-sm text-white">© 2024 Trees Construtora. Todos os direitos reservados.</p>
+                        <p className="text-sm text-white text-center">© 2024 Trees Construtora. Todos os direitos reservados.</p>
                     </div>
                 </div>
             </div>
