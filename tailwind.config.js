@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       colors: {
         primary: "#0C6075",
-        fundo: "#F0F0F0"
+        fundo: "#F0F0F0",
+        gradient: "rgb(16,78,92)"
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
