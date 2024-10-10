@@ -13,7 +13,7 @@ export default function Header() {
                     />
                 </div>
                 
-                <a href="" target="_blank" className="flex items-center gap-1 xl:gap-4 transition-transform transform duration-300 ease-in-out hover:scale-110">
+                <a href="https://wa.me/5554992005646" target="_blank" className="flex items-center gap-1 xl:gap-4 transition-transform transform duration-300 ease-in-out hover:scale-110">
                     <Image
                         src="/icons/whatsapp.webp"
                         alt="Icone do whatsapp"
