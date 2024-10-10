@@ -31,32 +31,34 @@ export default function FAQ() {
   };
 
   return (
-    <div className="max-w-3xl mx-auto bg-fundo">
-        <div className="max-w-7xl m-auto p-4 flex flex-col gap-5" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-            <h2 className="text-xl font-bold text-center">Perguntas Frequentes</h2>
+    <section className="bg-gradientFundo p-4 md:p-10">
+        <div className="max-w-7xl m-auto flex flex-col gap-5" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+            <h2 className="text-xl font-bold text-center md:text-3xl">Perguntas Frequentes</h2>
             <div className="space-y-4 flex flex-col ga-4">
                 {faqs.map((faq, index) => (
                     <div key={index} className="rounded-2xl bg-white">
                         <button
-                            className="w-full flex justify-between items-center p-4 text-left focus:outline-none"
-                            onClick={() => toggleFAQ(index)} 
+                          className="w-full flex justify-between items-center p-4 text-left focus:outline-none"
+                          onClick={() => toggleFAQ(index)} 
                         >
-                            <span className="text-base font-medium">{faq.question}</span>
-                            <FaChevronDown
-                                className={`text-gray-600 transition-transform duration-500 ${
-                                activeIndex === index ? 'rotate-180' : ''
-                                }`}
-                            />
+                            <span className="text-base font-semibold md:text-xl">{faq.question}</span>
+                            <div className="w-3 h-4">
+                              <FaChevronDown
+                                  className={`w-3 h-4 text-gray-600 transition-transform duration-500 ${
+                                  activeIndex === index ? 'rotate-180' : ''
+                                  }`}
+                              />
+                            </div>
                         </button>
                         {/* Wrapper for the animated height */}
                         <div
-                            ref={(el) => (contentRefs.current[index] = el)}
-                            className={`overflow-hidden transition-all duration-500 ease-in-out`}
-                            style={{
-                                maxHeight: activeIndex === index ? contentRefs.current[index]?.scrollHeight : 0,
-                            }}
+                          ref={(el) => (contentRefs.current[index] = el)}
+                          className={`overflow-hidden transition-all duration-500 ease-in-out`}
+                          style={{
+                              maxHeight: activeIndex === index ? contentRefs.current[index]?.scrollHeight : 0,
+                          }}
                         >
-                            <div className="p-4 text-gray-700">
+                            <div className="p-4 text-gray-700 md:text-base">
                                 {faq.answer}
                             </div>
                         </div>
@@ -64,6 +66,6 @@ export default function FAQ() {
                 ))}
             </div>
         </div>
-    </div>
+    </section>
   );
 }

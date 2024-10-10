@@ -3,7 +3,7 @@ import Button from "./button"
 export default function Banner(){
     return (
         <section className="h-72 bg-[url('/images/banners/banner_1.webp')] bg-cover bg-center p-4 md:p-10 md:h-[500px] lg:h-[550px] 2xl:h-[750px]" >
-            <div className="max-w-7xl m-auto">
+            <div className="h-full max-w-7xl m-auto">
                 <div className="h-full flex flex-col justify-center gap-4 md:gap-6" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                     <div className="flex flex-col gap-2 md:gap-2">
                         <h1 className="font-bold text-2xl text-white leading-7 md:text-4xl lg:text-5xl lg:leading-tight">

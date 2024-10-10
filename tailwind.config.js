@@ -10,7 +10,8 @@ module.exports = {
       colors: {
         primary: "#0C6075",
         fundo: "#F0F0F0",
-        gradient: "rgb(16,78,92)"
+        gradient: "rgb(16,78,92)",
+        gradientFundo: "rgb(240,240,240)"
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
