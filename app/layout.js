@@ -15,7 +15,7 @@ export const metadata = {
     url: 'https://treeconstrutora.vercel.app', // URL da página
     images: [
       {
-        url: '/image/logo/logo.webp', // URL da imagem
+        url: '/images/logo/logo.webp', // URL da imagem
         width: 673, // Largura da imagem
         height: 260, // Altura da imagem
         alt: 'Logo Trees Construtora',
