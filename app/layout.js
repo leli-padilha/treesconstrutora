@@ -11,7 +11,7 @@ export const metadata = {
   },
   openGraph: {
     title: 'Trees Construtora',
-    description: 'Construímos seus investimento e seus sonhos.',
+    description: 'Construímos seus investimentos e seus sonhos.',
     url: 'https://treeconstrutora.vercel.app', // URL da página
     images: [
       {
